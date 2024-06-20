@@ -1,0 +1,55 @@
+1. Variáveis e Tipos de Dados
+1-1 Crie uma variável nome e atribua a ela o seu nome. Imprima essa variável no console.
+1-2 Declare duas variáveis idade e ano de Nascimento. Calcule e imprima a idade com base no ano de nascimento.
+    Crie uma variável para armazenar o valor de um produto e outra para armazenar a quantidade desse produto. Calcule o valor total (preço * quantidade).
+    Declare uma variável booleana temFilhos e atribua a ela verdadeiro ou falso. Imprima uma mensagem diferente dependendo do valor.
+    Crie uma variável altura e outra peso. Calcule o IMC (Índice de Massa Corporal) utilizando a fórmula IMC = peso / (altura * altura). Imprima o resultado.
+    Converta uma string para maiúsculas e outra para minúsculas.
+    Declare uma variável valor1 com valor 5 e outra valor2 com valor "5". Verifique se são iguais usando == e ===.
+    Crie uma variável saldo com um valor qualquer e aplique um desconto de 10%. Imprima o saldo final.
+    Declare uma variável valorRecebido com um número decimal e outra troco com um número inteiro. Arredonde valorRecebido e some com troco.
+    Crie uma variável dataAtual com a data de hoje e imprima-a no formato "dia/mês/ano".
+2. Estruturas Condicionais
+    Crie uma função que receba um número e imprima se ele é par ou ímpar.
+    Crie uma função que receba dois números e imprima o maior deles.
+    Crie uma função que receba um número de mês e imprima o nome do mês correspondente.
+    Crie uma função que verifique se uma pessoa é maior de idade (idade >= 18) e imprima uma mensagem correspondente.
+    Crie uma função que receba um número e imprima "Fizz" se o número for divisível por 3, "Buzz" se for divisível por 5, e "FizzBuzz" se for divisível por ambos. Caso contrário, imprima o próprio número.
+    Crie uma função que verifique se um número é positivo, negativo ou zero e imprima uma mensagem correspondente.
+    Crie uma função que receba três números e imprima-os em ordem crescente.
+    Crie uma função que receba um número e verifique se ele é primo.
+    Crie uma função que verifique se uma pessoa pode votar (idade >= 16) e se já votou em alguma eleição.
+    Crie uma função que simule um jogo de dados. Lance dois dados e some os valores. Se a soma for 7 ou 11, imprima "Você ganhou!". Se for 2, 3 ou 12, imprima "Você perdeu!". Caso contrário, imprima "Jogue novamente!".
+3. Estruturas de Repetição
+    Crie um loop que imprima os números de 1 a 10.
+    Crie um loop que imprima os números pares de 0 a 20.
+    Crie um loop que imprima os números ímpares de 30 a 15 (em ordem decrescente).
+    Crie um loop que imprima a tabuada de multiplicação de um número escolhido pelo usuário (de 1 a 10).
+    Crie um loop que calcule e imprima o fatorial de um número escolhido pelo usuário.
+    Crie um loop que imprima os números da sequência de Fibonacci até o décimo termo.
+    Crie um loop que leia números do usuário e pare quando o usuário digitar um número negativo.
+    Crie um loop que verifique se um número é primo. Pare o loop quando encontrar um número primo.
+    Crie um loop que imprima os números primos de 1 a 100.
+    Crie um loop que simule uma contagem regressiva de um foguete, de 10 até 0, com intervalo de 1 segundo entre os números.
+4. Funções
+    Crie uma função que receba dois números e retorne a soma deles.
+    Crie uma função que receba um array de números e retorne a média aritmética dos valores.
+    Crie uma função que receba uma temperatura em Celsius e retorne em Fahrenheit (F = C * 1.8 + 32).
+    Crie uma função que receba um número e retorne seu fatorial utilizando recursão.
+    Crie uma função que receba um array de números e retorne o maior e o menor valor.
+    Crie uma função que receba um número e retorne se é um número primo.
+    Crie uma função que receba um array de números e retorne quantos deles são pares.
+    Crie uma função que receba um número e retorne seu inverso. Exemplo: 123 -> 321.
+    Crie uma função que receba uma string e retorne o número de vogais que ela contém.
+    Crie uma função que receba um array de strings e retorne outra array somente com as strings que começam com a letra "A".
+5. Desafios Adicionais
+    Crie uma função que simule um jogo de adivinhação. O usuário deve tentar adivinhar um número entre 1 e 100. A função deve informar se o número é maior, menor ou se o usuário acertou.
+    Crie uma função que simule uma calculadora básica com operações de soma, subtração, multiplicação e divisão.
+    Crie uma função que receba um texto e retorne o mesmo texto criptografado usando o método de substituição, onde cada letra é substituída pela letra seguinte do alfabeto (por exemplo, "a" vira "b", "b" vira "c" e assim por diante).
+    Crie uma função que verifique se uma palavra é um palíndromo (se lida de trás para frente é igual).
+    Crie uma função que receba um número de telefone com DDD e formate-o para o formato (00) 0000-0000.
+    Crie uma função que receba uma data e retorne o dia da semana correspondente.
+    Crie uma função que receba um número e retorne uma string com o número por extenso. Exemplo: 5 -> "cinco", 12 -> "doze".
+    Crie uma função que receba um array de números e retorne um novo array sem números repetidos.
+    Crie uma função que receba um número e retorne verdadeiro se ele for um quadrado perfeito, falso caso contrário.
+    Crie uma função que receba um array de números e retorne o segundo maior e o segundo menor números, respectivamente.

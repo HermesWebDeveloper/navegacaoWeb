@@ -1,0 +1,36 @@
+body {
+    background-color: #7b0000;
+}
+
+table {
+    margin: auto;
+    background-color: rgb(10, 10, 10);
+    padding: 10px 15px;
+    border-radius: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th, td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    background-color: rgb(50, 50, 50);
+}
+
+#entrada-calculadora {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: #000;
+    text-align: right;
+    padding: 10px;
+}
+
+#titulo-calculadora {
+    font-weight: bold;
+    font-style: initial;
+    background-color: rgb(10, 10, 10);
+    border: 0px;
+    padding: 10px;
+    font-size: 30px;
+}

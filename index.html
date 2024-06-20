@@ -4,15 +4,126 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Links e navegacao</title>
+        <style>
+            .bordaDiv {
+                border: 1px solid black;
+            }
+
+            .negrito {
+                font-weight: bold;
+            }
+
+            code {
+                font-size: 105%;
+                background-color: rgba(222, 222, 222, 0.3);
+            }
+            code {
+                color: crimson;
+                background-color: #f1f1f1;
+                padding-left: 4px;
+                padding-right: 4px;
+                font-size: 110%;
+            }
+            code {
+                font-family: Consolas, Menlo, "courier new", monospace;
+                font-size: 16px;
+            }
+        </style>
     </head>
     <body>
-        <ul>
-            <li>
-                <a href="contatos.html">Contatos</a>
-            </li>
-            <li>
-                <a>Página 2</a>
-            </li>
-        </ul>
+        <header>
+            <ul>
+                <li>
+                    <a href="index.html" target="_blank">Home</a>
+                </li>
+                <li>
+                    <a href="contatos.html" target="_blank">Contatos</a>
+                </li>
+                <li>
+                    <a href="sobremim.html" target="_blank">Sobre Mim</a>
+                </li>
+                <li>
+                    <a href="table.html" target="_blank">Tabela</a>
+                </li>
+            </ul>
+        <header>
+        <div class="bordaDiv">
+            <h1>Página Inicial</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam id beatae minus, eum laboriosam deserunt dolore fuga cum accusantium a doloremque nemo esse, sint dolorem, voluptates odit sit saepe dolor.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, autem ipsa saepe placeat ratione explicabo rem nam laudantium minima soluta, reprehenderit ullam nostrum, odio fuga? Error in illo hic consequuntur eaque magnam praesentium labore cumque officiis fuga voluptas molestiae, placeat sunt quisquam, exercitationem aperiam quaerat ut eligendi nostrum ipsa! Dolore!
+            </p>
+            <p class="negrito">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, nihil!
+            </p>
+        </div>
+        <div class="bordaDiv">
+            <h1>Aprendizados sobre CSS</h1>
+            <div>
+                <h3>Bordas:</h3>
+                <ul>
+                    <li>
+                        border: (espessura da borda) (tipo de borda) (cor da borda)
+                    </li>
+                    <li>
+                        <p style="border: 2px solid Tomato;">Exemplo 1 - border:2px solid Tomato;</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Cor de fundo:</h3>
+                <ul>
+                    <li>
+                        background-color: (cor de fundo)
+                    </li>
+                    <li>
+                        <p style="background-color: dodgerblue;">Exemplo 1 - background-color: DodgerBlue</p>
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <div>
+                <h3>Valores de cores</h3>
+                <ul>
+                    <li style="color: RGB( 46, 6, 255, 0.6);">
+                        RGB( 255, 99, 71, 0.5) [O último número se refere a transparência da cor]
+                    </li>
+                    <li>
+                        #ff6347
+                    </li>
+                    <li style="color: hsl(9, 100%, 40%, 0.8);">
+                        hsl(9, 100%, 40%, 0.8) [O último número se refere a transparência da cor]
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Propriedades do fundo</h3>
+                <ul>
+                    <li>
+                        <code>background-color: red</code> - Cor de Fundo Vermelha  
+                    </li>
+                    <li>
+                        <code>opacity: 0.3;</code> - Opacidade do fundo
+                    </li>
+                    <li>
+                        <code>brackground-image: url("camaro.png")</code> - Imagem de fundo
+                    </li>
+                    <li>
+                        <code>background-repeat: repeat-x</code> - Repete a imagem apenas na horizontal
+                    </li>
+                    <li>
+                        <code>background-repeat: repeat-x</code> - Repete a imagem apenas na horizontal
+                    </li>
+                    <li>
+                        <code>background-repeat: repeat-y</code> - Repete a imagem apenas na vertical
+                    </li>
+                    <li>
+                        <code></code>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>
